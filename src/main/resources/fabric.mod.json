@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "bosswhackers",
+	"version": "${version}",
+	"name": "Boss Whackers",
+	"description": "Adds weapons to one-shot the Wither, Ender Dragon, and the Warden",
+	"authors": [
+		"BoyPika"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/boss-bashers",
+		"issues": "https://github.com/BoyPika/boss-bashers/issues",
+		"email": "boypika85@gmail.com"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/bosswhackers/textures/item/wither_whacker.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.boypika.BossBashers"
+		]
+	},
+	"mixins": [
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": ">=1.19.3",
+		"java": ">=17",
+		"fabric": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"update_checker": true
+		}
+	}
+}
