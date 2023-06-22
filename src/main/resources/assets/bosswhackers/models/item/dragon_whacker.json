@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "bossbashers:item/dragon_whacker"
+    "layer0": "bosswhackers:item/dragon_whacker"
   }
 }

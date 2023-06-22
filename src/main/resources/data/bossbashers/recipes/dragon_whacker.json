@@ -13,10 +13,10 @@
       "item": "minecraft:dragon_egg"
     },
     "W": {
-      "item": "bossbashers:wither_whacker"
+      "item": "bosswhackers:wither_whacker"
     }
   },
   "result": {
-    "item": "bossbashers:dragon_whacker"
+    "item": "bosswhackers:dragon_whacker"
   }
 }
