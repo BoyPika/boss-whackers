@@ -8,8 +8,8 @@
 		"BoyPika"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/mod/boss-bashers",
-		"issues": "https://github.com/BoyPika/boss-bashers/issues",
+		"homepage": "https://modrinth.com/mod/boss-whackers",
+		"issues": "https://github.com/BoyPika/boss-whackers/issues",
 		"email": "boypika85@gmail.com"
 	},
 	"license": "GPL-3.0",
@@ -17,7 +17,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.boypika.BossBashers"
+			"net.boypika.BossWhackers"
 		]
 	},
 	"mixins": [
