@@ -5,10 +5,8 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.util.Identifier;
-import net.minecraft.util.Rarity;
+import net.minecraft.registry.*;
+import net.minecraft.util.*;
 
 public class BossWhackers implements ModInitializer {
 	public static final ToolItem WITHER_WHACKER = new SwordItem(ToolMaterials.DIAMOND, 396, -3.5f, new FabricItemSettings().rarity(Rarity.UNCOMMON));
