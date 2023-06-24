@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.*;
 import net.minecraft.util.*;
+import org.slf4j.LoggerFactory;
 
 public class BossWhackers implements ModInitializer {
 	public static final ToolItem WITHER_WHACKER = new SwordItem(ToolMaterials.DIAMOND, 396, -3.5f, new FabricItemSettings().rarity(Rarity.UNCOMMON));
@@ -21,9 +22,8 @@ public class BossWhackers implements ModInitializer {
 			entries.add(WARDEN_WHACKER);
 		});
 		Registry.register(Registries.ITEM, new Identifier("bosswhackers", "wither_whacker"), WITHER_WHACKER);
-		Registry.register(Registries.ITEM, new Identifier("bosswhackers","dragon_whacker"), DRAGON_WHACKER);
+		Registry.register(Registries.ITEM, new Identifier("bosswhackers", "dragon_whacker"), DRAGON_WHACKER);
 		Registry.register(Registries.ITEM, new Identifier("bosswhackers", "warden_whacker"), WARDEN_WHACKER);
-
+		LoggerFactory.getLogger("BossWhackers").info("[1.19.3 - 1.20.1] Boss Whackers Init");
 	}
-
 }
