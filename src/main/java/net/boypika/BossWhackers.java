@@ -23,6 +23,6 @@ public class BossWhackers implements ModInitializer {
 		Registry.register(Registries.ITEM, new Identifier("bosswhackers", "wither_whacker"), WITHER_WHACKER);
 		Registry.register(Registries.ITEM, new Identifier("bosswhackers", "dragon_whacker"), DRAGON_WHACKER);
 		Registry.register(Registries.ITEM, new Identifier("bosswhackers", "warden_whacker"), WARDEN_WHACKER);
-		System.out.println("a[1.19.3 - 1.20.1] Boss Whackers Init");
+		System.out.println("[1.19.3 - 1.20.1] Boss Whackers Init");
 	}
 }
