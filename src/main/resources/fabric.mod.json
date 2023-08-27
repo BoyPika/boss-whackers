@@ -8,7 +8,7 @@
 		"BoyPika"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/mod/boss-whackers",
+		"homepage": "https://modrinth.com/mod/boss-bashers",
 		"issues": "https://github.com/BoyPika/boss-whackers/issues",
 		"email": "boypika85@gmail.com"
 	},
@@ -20,8 +20,6 @@
 			"net.boypika.BossWhackers"
 		]
 	},
-	"mixins": [
-	],
 	"depends": {
 		"fabricloader": ">=0.14.21",
 		"minecraft": ">=1.19.3",
