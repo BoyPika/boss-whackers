@@ -65,7 +65,7 @@ modrinth {
 	token = env.fetch("MODRINTH_TOKEN")
 	projectId = 'HQNCq9HG'
 	versionNumber = "${project.version}"
-	versionName = 'Boss Whackers 1.1.1'
+	versionName = "Boss Whackers ${project.version}"
 	uploadFile = remapJar
 	gameVersions = ['1.19.3', '1.19.4', '1.20', '1.20.1', '1.20.2']
 	loaders = ['fabric', 'quilt']
