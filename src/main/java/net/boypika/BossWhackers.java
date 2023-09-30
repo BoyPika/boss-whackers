@@ -32,7 +32,7 @@ public class BossWhackers implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ConfigManager.init(new ModConfig(), "bosswhackers");
+		ConfigManager.init(new ModConfig(), MOD_ID);
 		registerItems();
 		if (config().WitherWhacker){
 			Registry.register(Registries.ITEM, new Identifier(MOD_ID, "wither_whacker"), WITHER_WHACKER);
@@ -56,9 +56,9 @@ public class BossWhackers implements ModInitializer {
 				ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> entries.addAfter(WITHER_WHACKER, WARDEN_WHACKER));
 			}
 		}
-		System.out.println("[1.19.3 - 1.20.1] Boss Whackers Init");
+		System.out.println("[1.19.3 - 1.20.2] Boss Whackers Init");
 	}
 	public static ModConfig config() {
-		return (ModConfig) ConfigManager.get("bosswhackers");
+		return (ModConfig) ConfigManager.get(MOD_ID);
 	}
 }
